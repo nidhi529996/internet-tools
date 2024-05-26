@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square of a Number</title>
+
+    <style>
+        input, button {
+            padding: 10px;
+            border-radius: 5px;   
+        }
+        button {
+            background-color: #9d9fa1;
+            color: rgb(76, 72, 72);
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1e1f21;
+            color: white;
+        }
+        .result {
+            margin-top: 20px;
+          
+        }
+    </style>
+
+</head>
+<body>
+    
+        <h1>This is a square function:</h1>
+        <input type="number" id="numberInput" placeholder="Enter a number">
+        <button onclick="findSquare()">Enter</button>
+        <h1 class="result" id="result"></h1>
+   
+    <script>
+        function findSquare() {
+            var number = document.getElementById('numberInput').value;
+            var square = number * number;
+            document.getElementById('result').innerText = `Square of ${number} is ` + square;
+        }
+    </script>
+    
+</body>
+</html>
