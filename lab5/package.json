@@ -1,0 +1,24 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "Bootstrap and sass setup",
+  "main": "index.js",
+  "scripts": {
+    "sass-build": "sass --no-source-map scss:css",
+    "sass-watch": "sass --watch --no-source-map scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nidhi529996/internet-tools.git"
+  },
+  "author": "Nidhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nidhi529996/internet-tools/issues"
+  },
+  "homepage": "https://github.com/nidhi529996/internet-tools#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.4"
+  }
+}
